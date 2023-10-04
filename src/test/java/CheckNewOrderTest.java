@@ -32,7 +32,6 @@ public class CheckNewOrderTest extends BaseTest {
         this.orderComment = orderComment;
         this.expectedResult = expectedResult;
     }
-
     // Тестовые данные
     @Parameterized.Parameters
     public static Object[][] getCredentials() {
